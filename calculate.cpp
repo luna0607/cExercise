@@ -20,6 +20,9 @@ double a,b;
              break;
          default:
              break;
+        case '*':
+         std::cout<<multi(a,b);
+             break;
          }
          return 0;
  }
@@ -29,4 +32,9 @@ double add(double x, double y){
 double subtract(double x, double y){
     return x-y;
 }
+double multi(double x,double y){
+return x*y;
+}
+
+
 
