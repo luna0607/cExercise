@@ -5,6 +5,6 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 set(SOURCE_FILES
     main.cpp
-    task1.cpp)
+    task1.cpp calculate.cpp)
 
 add_executable(DEV ${SOURCE_FILES})
