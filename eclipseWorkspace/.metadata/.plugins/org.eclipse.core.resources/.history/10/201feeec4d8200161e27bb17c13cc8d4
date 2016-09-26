@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int m,n;
+	cin>>m>>endl;
+	cin>>n>>endl;
+	int result=0;
+	if(m>n){
+		for(int i=n;i<=m;i++){
+			if(i%2!=0){
+				result+=i;
+			}
+		}
+	}else{
+		for(int i=m;i<=n;i++){
+			if(i%2!=0){
+				result+=i;
+			}
+		}
+	}
+	std::cout<<result<<endl;
+	return 0;
+}

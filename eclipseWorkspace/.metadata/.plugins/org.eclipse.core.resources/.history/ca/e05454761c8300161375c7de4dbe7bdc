@@ -1,0 +1,21 @@
+#include<iostream>
+#include<math.h>
+int jieCheng(int n);
+int main(){
+return 0;
+}
+double sin(int x){
+double single;
+double result;
+
+for(int i=0;i<10000;i++){
+single=pow(-1,i)*pow((double)x,(double)2n-1)/(double)jieCheng(2n-1);
+}
+}
+int jieCheng(int n){
+	int resulT=1;
+	for(int i=1;i<=n;i++){
+		resulT=resulT*i;
+	}
+	return resulT;
+}

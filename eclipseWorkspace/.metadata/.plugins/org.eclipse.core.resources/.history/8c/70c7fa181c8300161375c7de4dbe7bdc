@@ -1,0 +1,13 @@
+#include<iostream>
+#include<math.h>
+int main(){
+return 0;
+}
+double sin(int x){
+double single;
+double result;
+int one=-1;
+for(int i=0;i<10000;i++){
+one=pow(one,i);
+}
+}

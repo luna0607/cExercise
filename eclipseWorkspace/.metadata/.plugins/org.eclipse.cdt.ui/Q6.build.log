@@ -1,0 +1,7 @@
+07:50:13 **** Incremental Build of configuration Release for project Q6 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q6.o "..\\Q6.cpp" 
+g++ -o Q6.exe Q6.o 
+
+07:50:13 Build Finished (took 887ms)
+

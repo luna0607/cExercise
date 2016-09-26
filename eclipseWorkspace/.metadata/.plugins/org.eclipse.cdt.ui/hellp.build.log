@@ -1,0 +1,15 @@
+20:20:40 **** Build of configuration Debug for project hellp ****
+make all 
+'Building file: ../src/hellp.cpp'
+'Invoking: Cross G++ Compiler'
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hellp.d" -MT"src/hellp.o" -o "src/hellp.o" "../src/hellp.cpp"
+'Finished building: ../src/hellp.cpp'
+' '
+'Building target: hellp'
+'Invoking: Cross G++ Linker'
+g++  -o "hellp"  ./src/hellp.o   
+'Finished building target: hellp'
+' '
+
+20:20:41 Build Finished (took 1s.181ms)
+

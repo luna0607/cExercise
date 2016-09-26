@@ -1,0 +1,618 @@
+20:16:59 **** Incremental Build of configuration Debug for project Q1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q1.o "..\\Q1.cpp" 
+g++ -o Q1 Q1.o 
+Info: Nothing to build for Q1
+20:17:36 **** Incremental Build of configuration Debug for project Q2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Q2.o" "..\\src\\Q2.cpp" 
+g++ -o Q2 "src\\Q2.o" 
+Info: Nothing to build for Q1
+20:20:39 **** Incremental Build of configuration Debug for project Q2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Q2.o" "..\\src\\Q2.cpp" 
+g++ -o Q2 "src\\Q2.o" 
+20:20:40 **** Build of configuration Debug for project hellp ****
+make all 
+'Building file: ../src/hellp.cpp'
+'Invoking: Cross G++ Compiler'
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hellp.d" -MT"src/hellp.o" -o "src/hellp.o" "../src/hellp.cpp"
+'Finished building: ../src/hellp.cpp'
+' '
+'Building target: hellp'
+'Invoking: Cross G++ Linker'
+g++  -o "hellp"  ./src/hellp.o   
+'Finished building target: hellp'
+' '
+Info: Nothing to build for Q2
+22:30:54 **** Rebuild of configuration Debug for project hello ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hello.o" "..\\src\\hello.cpp" 
+g++ -o hello.exe "src\\hello.o" 
+Info: Nothing to build for hello
+22:39:02 **** Rebuild of configuration Debug for project Q1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q1.o "..\\Q1.cpp" 
+g++ -o Q1.exe Q1.o 
+Info: Nothing to build for Q1
+22:43:53 **** Incremental Build of configuration Release for project Q1 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q1.o "..\\Q1.cpp" 
+g++ -o Q1.exe Q1.o 
+22:44:47 **** Incremental Build of configuration Debug for project Q1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q1.o "..\\Q1.cpp" 
+g++ -o Q1.exe Q1.o 
+22:44:54 **** Incremental Build of configuration Release for project Q1 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q1.o "..\\Q1.cpp" 
+g++ -o Q1.exe Q1.o 
+22:45:27 **** Incremental Build of configuration Release for project Q1 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q1.o "..\\Q1.cpp" 
+g++ -o Q1.exe Q1.o 
+Info: Nothing to build for Q1
+22:50:39 **** Rebuild of configuration Debug for project Q2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q2.o "..\\Q2.cpp" 
+g++ -o Q2.exe Q2.o 
+Info: Nothing to build for Q2
+22:51:38 **** Incremental Build of configuration Release for project Q2 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q2.o "..\\Q2.cpp" 
+g++ -o Q2.exe Q2.o 
+22:52:55 **** Incremental Build of configuration Release for project Q2 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q2.o "..\\Q2.cpp" 
+g++ -o Q2.exe Q2.o 
+Info: Nothing to build for Q2
+22:53:28 **** Incremental Build of configuration Debug for project Q2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q2.o "..\\Q2.cpp" 
+g++ -o Q2.exe Q2.o 
+22:53:34 **** Incremental Build of configuration Release for project Q2 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q2.o "..\\Q2.cpp" 
+g++ -o Q2.exe Q2.o 
+Info: Nothing to build for Q2
+Info: Nothing to build for Q2
+22:54:55 **** Incremental Build of configuration Debug for project Q2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q2.o "..\\Q2.cpp" 
+g++ -o Q2.exe Q2.o 
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Q2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:55:00 **** Incremental Build of configuration Release for project Q2 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q2.o "..\\Q2.cpp" 
+g++ -o Q2.exe Q2.o 
+22:55:42 **** Incremental Build of configuration Debug for project Q2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q2.o "..\\Q2.cpp" 
+g++ -o Q2.exe Q2.o 
+22:55:46 **** Incremental Build of configuration Release for project Q2 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q2.o "..\\Q2.cpp" 
+g++ -o Q2.exe Q2.o 
+23:08:50 **** Rebuild of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q10.o "..\\Q10.cpp" 
+g++ -o Q10.exe Q10.o 
+Info: Nothing to build for Q2
+Info: Nothing to build for Q10
+23:09:40 **** Incremental Build of configuration Release for project Q10 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q10.o "..\\Q10.cpp" 
+g++ -o Q10.exe Q10.o 
+10:33:26 **** Rebuild of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q10.o "..\\Q10.cpp" 
+g++ -o Q10.exe Q10.o 
+10:33:53 **** Incremental Build of configuration Release for project Q10 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q10.o "..\\Q10.cpp" 
+g++ -o Q10.exe Q10.o 
+10:35:44 **** Rebuild of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q10.o "..\\Q10.cpp" 
+g++ -o Q10.exe Q10.o 
+10:35:49 **** Incremental Build of configuration Release for project Q10 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q10.o "..\\Q10.cpp" 
+g++ -o Q10.exe Q10.o 
+Info: Nothing to build for Q10
+10:38:20 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q10.o "..\\Q10.cpp" 
+g++ -o Q10.exe Q10.o 
+10:38:23 **** Incremental Build of configuration Release for project Q10 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q10.o "..\\Q10.cpp" 
+g++ -o Q10.exe Q10.o 
+10:38:36 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q10.o "..\\Q10.cpp" 
+g++ -o Q10.exe Q10.o 
+10:38:40 **** Incremental Build of configuration Release for project Q10 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q10.o "..\\Q10.cpp" 
+g++ -o Q10.exe Q10.o 
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+10:40:21 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q10.o "..\\Q10.cpp" 
+g++ -o Q10.exe Q10.o 
+10:40:33 **** Incremental Build of configuration Release for project Q10 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q10.o "..\\Q10.cpp" 
+g++ -o Q10.exe Q10.o 
+Info: Nothing to build for Q10
+10:41:19 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q10.o "..\\Q10.cpp" 
+g++ -o Q10.exe Q10.o 
+10:41:23 **** Incremental Build of configuration Release for project Q10 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q10.o "..\\Q10.cpp" 
+g++ -o Q10.exe Q10.o 
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+10:43:34 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q10.o "..\\Q10.cpp" 
+g++ -o Q10.exe Q10.o 
+10:43:39 **** Incremental Build of configuration Release for project Q10 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q10.o "..\\Q10.cpp" 
+g++ -o Q10.exe Q10.o 
+10:44:04 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q10.o "..\\Q10.cpp" 
+g++ -o Q10.exe Q10.o 
+10:44:07 **** Incremental Build of configuration Release for project Q10 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q10.o "..\\Q10.cpp" 
+g++ -o Q10.exe Q10.o 
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+10:48:08 **** Incremental Build of configuration Release for project Q10 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q10.o "..\\Q10.cpp" 
+g++ -o Q10.exe Q10.o 
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+Info: Nothing to build for Q10
+10:57:51 **** Rebuild of configuration Debug for project Q11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q11.o "..\\Q11.cpp" 
+g++ -o Q11.exe Q11.o 
+Info: Nothing to build for Q10
+10:58:49 **** Incremental Build of configuration Release for project Q11 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q11.o "..\\Q11.cpp" 
+g++ -o Q11.exe Q11.o 
+Info: Nothing to build for Q11
+10:59:23 **** Incremental Build of configuration Debug for project Q11 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q11.o "..\\Q11.cpp" 
+g++ -o Q11.exe Q11.o 
+10:59:27 **** Incremental Build of configuration Release for project Q11 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q11.o "..\\Q11.cpp" 
+g++ -o Q11.exe Q11.o 
+Info: Nothing to build for Q11
+Info: Nothing to build for Q11
+11:19:02 **** Rebuild of configuration Debug for project Q12 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q12.o "..\\Q12.cpp" 
+g++ -o Q12.exe Q12.o 
+Info: Nothing to build for Q12
+11:19:34 **** Incremental Build of configuration Debug for project Q12 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q12.o "..\\Q12.cpp" 
+g++ -o Q12.exe Q12.o 
+Info: Nothing to build for Q12
+Info: Nothing to build for Q12
+11:20:11 **** Incremental Build of configuration Debug for project Q12 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q12.o "..\\Q12.cpp" 
+g++ -o Q12.exe Q12.o 
+Info: Nothing to build for Q12
+11:20:29 **** Incremental Build of configuration Debug for project Q12 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q12.o "..\\Q12.cpp" 
+g++ -o Q12.exe Q12.o 
+Info: Nothing to build for Q12
+Info: Nothing to build for Q12
+Info: Nothing to build for Q12
+11:23:49 **** Incremental Build of configuration Debug for project Q12 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q12.o "..\\Q12.cpp" 
+g++ -o Q12.exe Q12.o 
+11:24:12 **** Incremental Build of configuration Release for project Q12 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q12.o "..\\Q12.cpp" 
+g++ -o Q12.exe Q12.o 
+11:53:33 **** Rebuild of configuration Debug for project h ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\h.o" "..\\src\\h.cpp" 
+g++ -o h.exe "src\\h.o" 
+Info: Nothing to build for h
+11:54:12 **** Incremental Build of configuration Debug for project h ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\h.o" "..\\src\\h.cpp" 
+g++ -o h.exe "src\\h.o" 
+11:59:34 **** Incremental Build of configuration Debug for project h ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\h.o" "..\\src\\h.cpp" 
+g++ -o h.exe "src\\h.o" 
+12:09:50 **** Rebuild of configuration Debug for project Q13 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q13.o "..\\Q13.cpp" 
+g++ -o Q13.exe Q13.o 
+Info: Nothing to build for Q13
+12:10:34 **** Incremental Build of configuration Release for project Q13 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q13.o "..\\Q13.cpp" 
+g++ -o Q13.exe Q13.o 
+Info: Nothing to build for Q13
+Info: Nothing to build for Q13
+12:13:44 **** Incremental Build of configuration Release for project Q13 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q13.o "..\\Q13.cpp" 
+g++ -o Q13.exe Q13.o 
+12:15:36 **** Incremental Build of configuration Release for project Q13 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q13.o "..\\Q13.cpp" 
+g++ -o Q13.exe Q13.o 
+Info: Nothing to build for Q13
+Info: Nothing to build for Q13
+12:18:45 **** Incremental Build of configuration Release for project Q13 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q13.o "..\\Q13.cpp" 
+g++ -o Q13.exe Q13.o 
+12:20:07 **** Incremental Build of configuration Debug for project Q13 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q13.o "..\\Q13.cpp" 
+g++ -o Q13.exe Q13.o 
+Info: Nothing to build for Q13
+Info: Nothing to build for Q13
+12:22:23 **** Incremental Build of configuration Debug for project Q13 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q13.o "..\\Q13.cpp" 
+g++ -o Q13.exe Q13.o 
+12:22:27 **** Incremental Build of configuration Release for project Q13 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q13.o "..\\Q13.cpp" 
+g++ -o Q13.exe Q13.o 
+12:24:09 **** Incremental Build of configuration Debug for project Q13 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q13.o "..\\Q13.cpp" 
+g++ -o Q13.exe Q13.o 
+12:24:12 **** Incremental Build of configuration Release for project Q13 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q13.o "..\\Q13.cpp" 
+g++ -o Q13.exe Q13.o 
+12:25:15 **** Incremental Build of configuration Debug for project Q13 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q13.o "..\\Q13.cpp" 
+g++ -o Q13.exe Q13.o 
+12:25:17 **** Incremental Build of configuration Release for project Q13 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q13.o "..\\Q13.cpp" 
+g++ -o Q13.exe Q13.o 
+12:26:10 **** Incremental Build of configuration Debug for project Q13 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q13.o "..\\Q13.cpp" 
+g++ -o Q13.exe Q13.o 
+12:26:12 **** Incremental Build of configuration Release for project Q13 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q13.o "..\\Q13.cpp" 
+g++ -o Q13.exe Q13.o 
+12:27:15 **** Incremental Build of configuration Debug for project Q13 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q13.o "..\\Q13.cpp" 
+g++ -o Q13.exe Q13.o 
+12:27:17 **** Incremental Build of configuration Release for project Q13 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q13.o "..\\Q13.cpp" 
+g++ -o Q13.exe Q13.o 
+12:27:56 **** Incremental Build of configuration Debug for project Q13 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q13.o "..\\Q13.cpp" 
+g++ -o Q13.exe Q13.o 
+12:27:58 **** Incremental Build of configuration Release for project Q13 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q13.o "..\\Q13.cpp" 
+g++ -o Q13.exe Q13.o 
+Info: Nothing to build for Q13
+12:29:35 **** Incremental Build of configuration Release for project Q13 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q13.o "..\\Q13.cpp" 
+g++ -o Q13.exe Q13.o 
+Info: Nothing to build for Q13
+07:34:17 **** Rebuild of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q6.o "..\\Q6.cpp" 
+..\Q6.cpp: In function 'double sin(double)':
+..\Q6.cpp:24:42: error: invalid cast from type '__complex__ int' to type 'double'
+ single=pow(-1,i-1)*pow((double)x,(double)2i-1)/jieCheng(2*i-1);
+                                          ^
+07:34:52 **** Incremental Build of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q6.o "..\\Q6.cpp" 
+g++ -o Q6.exe Q6.o 
+Info: Nothing to build for Q6
+07:36:34 **** Incremental Build of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q6.o "..\\Q6.cpp" 
+g++ -o Q6.exe Q6.o 
+Info: Nothing to build for Q6
+07:38:57 **** Incremental Build of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q6.o "..\\Q6.cpp" 
+..\Q6.cpp: In function 'int main()':
+..\Q6.cpp:16:49: error: expected ';' before 'sin'
+   cout<<setiosflags(ios::fixed)<<setprecision(4)sin(r*s/2);
+                                                 ^
+07:39:11 **** Incremental Build of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q6.o "..\\Q6.cpp" 
+..\Q6.cpp: In function 'int main()':
+..\Q6.cpp:16:49: error: expected ';' before 'sin'
+   cout<<setiosflags(ios::fixed)<<setprecision(4)sin(r*s/2);
+                                                 ^
+07:39:16 **** Incremental Build of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q6.o "..\\Q6.cpp" 
+g++ -o Q6.exe Q6.o 
+Info: Nothing to build for Q6
+07:39:37 **** Incremental Build of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q6.o "..\\Q6.cpp" 
+g++ -o Q6.exe Q6.o 
+Info: Nothing to build for Q6
+07:41:15 **** Incremental Build of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q6.o "..\\Q6.cpp" 
+g++ -o Q6.exe Q6.o 
+Info: Nothing to build for Q6
+07:42:03 **** Incremental Build of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q6.o "..\\Q6.cpp" 
+g++ -o Q6.exe Q6.o 
+Info: Nothing to build for Q6
+07:42:45 **** Incremental Build of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q6.o "..\\Q6.cpp" 
+g++ -o Q6.exe Q6.o 
+Info: Nothing to build for Q6
+Info: Nothing to build for Q6
+07:43:36 **** Incremental Build of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q6.o "..\\Q6.cpp" 
+g++ -o Q6.exe Q6.o 
+Info: Nothing to build for Q6
+07:44:07 **** Incremental Build of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q6.o "..\\Q6.cpp" 
+g++ -o Q6.exe Q6.o 
+Info: Nothing to build for Q6
+07:45:35 **** Incremental Build of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q6.o "..\\Q6.cpp" 
+..\Q6.cpp: In function 'int main()':
+..\Q6.cpp:15:19: error: call of overloaded 'sin(int&)' is ambiguous
+   cout<<sqrt(sin(r)*sin(r)+sin(s)*sin(s));
+                   ^
+In file included from ..\Q6.cpp:2:0:
+c:\mingw\include\math.h:160:24: note: candidate: double sin(double)
+ _CRTIMP double __cdecl sin (double);
+                        ^
+..\Q6.cpp:6:7: note: candidate: float sin(float)
+ float sin(float x);
+       ^
+..\Q6.cpp:15:26: error: call of overloaded 'sin(int&)' is ambiguous
+   cout<<sqrt(sin(r)*sin(r)+sin(s)*sin(s));
+                          ^
+In file included from ..\Q6.cpp:2:0:
+c:\mingw\include\math.h:160:24: note: candidate: double sin(double)
+ _CRTIMP double __cdecl sin (double);
+                        ^
+..\Q6.cpp:6:7: note: candidate: float sin(float)
+ float sin(float x);
+       ^
+..\Q6.cpp:15:33: error: call of overloaded 'sin(int&)' is ambiguous
+   cout<<sqrt(sin(r)*sin(r)+sin(s)*sin(s));
+                                 ^
+In file included from ..\Q6.cpp:2:0:
+c:\mingw\include\math.h:160:24: note: candidate: double sin(double)
+ _CRTIMP double __cdecl sin (double);
+                        ^
+..\Q6.cpp:6:7: note: candidate: float sin(float)
+ float sin(float x);
+       ^
+..\Q6.cpp:15:40: error: call of overloaded 'sin(int&)' is ambiguous
+   cout<<sqrt(sin(r)*sin(r)+sin(s)*sin(s));
+                                        ^
+In file included from ..\Q6.cpp:2:0:
+c:\mingw\include\math.h:160:24: note: candidate: double sin(double)
+ _CRTIMP double __cdecl sin (double);
+                        ^
+..\Q6.cpp:6:7: note: candidate: float sin(float)
+ float sin(float x);
+       ^
+..\Q6.cpp:19:18: error: call of overloaded 'sin(int)' is ambiguous
+   cout<<sin(r*s/2);
+                  ^
+In file included from ..\Q6.cpp:2:0:
+c:\mingw\include\math.h:160:24: note: candidate: double sin(double)
+ _CRTIMP double __cdecl sin (double);
+                        ^
+..\Q6.cpp:6:7: note: candidate: float sin(float)
+ float sin(float x);
+       ^
+07:45:37 **** Incremental Build of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q6.o "..\\Q6.cpp" 
+..\Q6.cpp: In function 'int main()':
+..\Q6.cpp:15:19: error: call of overloaded 'sin(int&)' is ambiguous
+   cout<<sqrt(sin(r)*sin(r)+sin(s)*sin(s));
+                   ^
+In file included from ..\Q6.cpp:2:0:
+c:\mingw\include\math.h:160:24: note: candidate: double sin(double)
+ _CRTIMP double __cdecl sin (double);
+                        ^
+..\Q6.cpp:6:7: note: candidate: float sin(float)
+ float sin(float x);
+       ^
+..\Q6.cpp:15:26: error: call of overloaded 'sin(int&)' is ambiguous
+   cout<<sqrt(sin(r)*sin(r)+sin(s)*sin(s));
+                          ^
+In file included from ..\Q6.cpp:2:0:
+c:\mingw\include\math.h:160:24: note: candidate: double sin(double)
+ _CRTIMP double __cdecl sin (double);
+                        ^
+..\Q6.cpp:6:7: note: candidate: float sin(float)
+ float sin(float x);
+       ^
+..\Q6.cpp:15:33: error: call of overloaded 'sin(int&)' is ambiguous
+   cout<<sqrt(sin(r)*sin(r)+sin(s)*sin(s));
+                                 ^
+In file included from ..\Q6.cpp:2:0:
+c:\mingw\include\math.h:160:24: note: candidate: double sin(double)
+ _CRTIMP double __cdecl sin (double);
+                        ^
+..\Q6.cpp:6:7: note: candidate: float sin(float)
+ float sin(float x);
+       ^
+..\Q6.cpp:15:40: error: call of overloaded 'sin(int&)' is ambiguous
+   cout<<sqrt(sin(r)*sin(r)+sin(s)*sin(s));
+                                        ^
+In file included from ..\Q6.cpp:2:0:
+c:\mingw\include\math.h:160:24: note: candidate: double sin(double)
+ _CRTIMP double __cdecl sin (double);
+                        ^
+..\Q6.cpp:6:7: note: candidate: float sin(float)
+ float sin(float x);
+       ^
+..\Q6.cpp:19:18: error: call of overloaded 'sin(int)' is ambiguous
+   cout<<sin(r*s/2);
+                  ^
+In file included from ..\Q6.cpp:2:0:
+c:\mingw\include\math.h:160:24: note: candidate: double sin(double)
+ _CRTIMP double __cdecl sin (double);
+                        ^
+..\Q6.cpp:6:7: note: candidate: float sin(float)
+ float sin(float x);
+       ^
+07:49:06 **** Incremental Build of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q6.o "..\\Q6.cpp" 
+g++ -o Q6.exe Q6.o 
+Info: Nothing to build for Q6
+07:49:44 **** Incremental Build of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q6.o "..\\Q6.cpp" 
+g++ -o Q6.exe Q6.o 
+07:50:13 **** Incremental Build of configuration Release for project Q6 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q6.o "..\\Q6.cpp" 
+g++ -o Q6.exe Q6.o 
+07:56:14 **** Rebuild of configuration Debug for project Q7 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q7.o "..\\Q7.cpp" 
+g++ -o Q7.exe Q7.o 
+Info: Nothing to build for Q7
+07:56:43 **** Incremental Build of configuration Release for project Q7 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q7.o "..\\Q7.cpp" 
+g++ -o Q7.exe Q7.o 
+08:01:52 **** Rebuild of configuration Debug for project Q8 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q8.o "..\\Q8.cpp" 
+..\Q8.cpp: In function 'int main()':
+..\Q8.cpp:6:20: error: invalid use of member (did you forget the '&' ?)
+  for(int i=0;i<str.length;i++){
+                    ^
+08:02:56 **** Incremental Build of configuration Debug for project Q8 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q8.o "..\\Q8.cpp" 
+..\Q8.cpp: In function 'int main()':
+..\Q8.cpp:6:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<str.length();i++){
+               ^
+g++ -o Q8.exe Q8.o 
+08:03:50 **** Incremental Build of configuration Debug for project Q8 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q8.o "..\\Q8.cpp" 
+..\Q8.cpp: In function 'int main()':
+..\Q8.cpp:6:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<str.size();i++){
+               ^
+g++ -o Q8.exe Q8.o 
+Info: Nothing to build for Q8
+08:05:29 **** Incremental Build of configuration Debug for project Q8 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q8.o "..\\Q8.cpp" 
+..\Q8.cpp: In function 'int main()':
+..\Q8.cpp:6:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<str.size()-1;i++){
+               ^
+g++ -o Q8.exe Q8.o 
+Info: Nothing to build for Q8
+08:05:44 **** Incremental Build of configuration Release for project Q8 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q8.o "..\\Q8.cpp" 
+..\Q8.cpp: In function 'int main()':
+..\Q8.cpp:6:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<str.size()-1;i++){
+               ^
+g++ -o Q8.exe Q8.o 
+08:15:35 **** Rebuild of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q9.o "..\\Q9.cpp" 
+..\Q9.cpp: In function 'int main()':
+..\Q9.cpp:9:7: warning: variable 'temp' set but not used [-Wunused-but-set-variable]
+   int temp;
+       ^
+g++ -o Q9.exe Q9.o 
+Info: Nothing to build for Q9
+08:17:44 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q9.o "..\\Q9.cpp" 
+g++ -o Q9.exe Q9.o 
+Info: Nothing to build for Q9
+08:18:20 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q9.o "..\\Q9.cpp" 
+g++ -o Q9.exe Q9.o 
+Info: Nothing to build for Q9
+08:18:46 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q9.o "..\\Q9.cpp" 
+g++ -o Q9.exe Q9.o 
+Info: Nothing to build for Q9
+08:18:55 **** Incremental Build of configuration Release for project Q9 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q9.o "..\\Q9.cpp" 
+g++ -o Q9.exe Q9.o 
+12:36:43 **** Incremental Build of configuration Debug for project Q10 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q10.o "..\\Q10.cpp" 
+g++ -o Q10.exe Q10.o 
+Info: Nothing to build for Q10

@@ -1,0 +1,11 @@
+08:05:44 **** Incremental Build of configuration Release for project Q8 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q8.o "..\\Q8.cpp" 
+..\Q8.cpp: In function 'int main()':
+..\Q8.cpp:6:15: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<str.size()-1;i++){
+               ^
+g++ -o Q8.exe Q8.o 
+
+08:05:44 Build Finished (took 746ms)
+

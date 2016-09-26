@@ -1,0 +1,7 @@
+11:24:12 **** Incremental Build of configuration Release for project Q12 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q12.o "..\\Q12.cpp" 
+g++ -o Q12.exe Q12.o 
+
+11:24:12 Build Finished (took 738ms)
+
