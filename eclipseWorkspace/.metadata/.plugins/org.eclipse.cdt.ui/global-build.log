@@ -616,3 +616,20 @@ Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q10.o "..\\Q10.cpp" 
 g++ -o Q10.exe Q10.o 
 Info: Nothing to build for Q10
+Info: Nothing to build for Q9
+Info: Nothing to build for Q9
+Info: Nothing to build for Q9
+Info: Nothing to build for Q9
+Info: Nothing to build for Q9
+Info: Nothing to build for Q9
+18:51:58 **** Incremental Build of configuration Debug for project Q9 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Q9.o "..\\Q9.cpp" 
+g++ -o Q9.exe Q9.o 
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Q9.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:52:12 **** Incremental Build of configuration Release for project Q9 ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Q9.o "..\\Q9.cpp" 
+g++ -o Q9.exe Q9.o 
+Info: Nothing to build for Q9
