@@ -10,8 +10,10 @@
 using namespace std;
 
 int main() {
-	string a="hello";
-	string s="??";
-	cout <<a<<s<< endl; // prints !!!Hello World!!!
+
+	char s[]="hello";
+
+	cout << s;
+
 	return 0;
 }

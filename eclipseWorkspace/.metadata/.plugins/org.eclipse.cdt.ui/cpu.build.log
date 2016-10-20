@@ -1,0 +1,2368 @@
+13:11:15 **** Rebuild of configuration Debug for project cpu ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cpuinfo.o" "..\\src\\cpuinfo.c" 
+In file included from ..\src\cpuinfo.c:1:0:
+..\src\cpuinfo.h:14:1: error: stray '\302' in program
+  
+ ^
+..\src\cpuinfo.h:14:1: error: stray '\240' in program
+..\src\cpuinfo.h:15:23: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_RDRAND           0x40000000
+                       ^
+..\src\cpuinfo.h:16:21: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_F16C             0x20000000
+                     ^
+..\src\cpuinfo.h:17:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_AVX              0x10000000
+                    ^
+..\src\cpuinfo.h:18:24: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_OSXSAVE          0x08000000
+                        ^
+..\src\cpuinfo.h:19:22: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_XSAVE            0x04000000
+                      ^
+..\src\cpuinfo.h:20:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_AES              0x02000000
+                    ^
+..\src\cpuinfo.h:21:29: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_TSC_DEADLINE     0x01000000
+                             ^
+..\src\cpuinfo.h:22:23: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_POPCNT           0x00800000
+                       ^
+..\src\cpuinfo.h:23:22: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_MOVBE            0x00400000
+                      ^
+..\src\cpuinfo.h:24:23: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_x2APIC           0x00200000
+                       ^
+..\src\cpuinfo.h:25:23: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_SSE4_2           0x00100000
+                       ^
+..\src\cpuinfo.h:26:23: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_SSE4_1           0x00080000
+                       ^
+..\src\cpuinfo.h:27:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_DCA              0x00040000
+                    ^
+..\src\cpuinfo.h:28:21: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_PCID             0x00020000
+                     ^
+..\src\cpuinfo.h:29:21: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_PDCM             0x00008000
+                     ^
+..\src\cpuinfo.h:30:21: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_xTPR             0x00004000
+                     ^
+..\src\cpuinfo.h:31:24: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_CMPXCHG          0x00002000
+                        ^
+..\src\cpuinfo.h:32:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_FMA              0x00001000
+                    ^
+..\src\cpuinfo.h:33:21: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_SDBG             0x00000800
+                     ^
+..\src\cpuinfo.h:34:24: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_CNXT_ID          0x00000400
+                        ^
+..\src\cpuinfo.h:35:22: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_SSSE3            0x00000200
+                      ^
+..\src\cpuinfo.h:36:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_TM2              0x00000100
+                    ^
+..\src\cpuinfo.h:37:21: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_EIST             0x00000080
+                     ^
+..\src\cpuinfo.h:38:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_SMX              0x00000040
+                    ^
+..\src\cpuinfo.h:39:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_VMX              0x00000020
+                    ^
+..\src\cpuinfo.h:40:23: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_DS_CPL           0x00000010
+                       ^
+..\src\cpuinfo.h:41:24: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_MONITOR          0x00000008
+                        ^
+..\src\cpuinfo.h:42:23: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_DTES64           0x00000004
+                       ^
+..\src\cpuinfo.h:43:26: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_PCLMULQDQ        0x00000002
+                          ^
+..\src\cpuinfo.h:44:21: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_SSE3             0x00000001
+                     ^
+..\src\cpuinfo.h:45:1: error: stray '\302' in program
+  
+ ^
+..\src\cpuinfo.h:45:1: error: stray '\240' in program
+..\src\cpuinfo.h:46:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_PBE              0x80000000
+                    ^
+..\src\cpuinfo.h:47:19: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_TM               0x20000000
+                   ^
+..\src\cpuinfo.h:48:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_HTT              0x10000000
+                    ^
+..\src\cpuinfo.h:49:19: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_SS               0x08000000
+                   ^
+..\src\cpuinfo.h:50:21: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_SSE2             0x04000000
+                     ^
+..\src\cpuinfo.h:51:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_SSE              0x02000000
+                    ^
+..\src\cpuinfo.h:52:21: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_FXSR             0x01000000
+                     ^
+..\src\cpuinfo.h:53:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_MMX              0x00800000
+                    ^
+..\src\cpuinfo.h:54:21: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_ACPI             0x00400000
+                     ^
+..\src\cpuinfo.h:55:19: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_DS               0x00200000
+                   ^
+..\src\cpuinfo.h:56:22: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_CLFSH            0x00080000
+                      ^
+..\src\cpuinfo.h:57:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_PSN              0x00040000
+                    ^
+..\src\cpuinfo.h:58:22: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_PSE36            0x00020000
+                      ^
+..\src\cpuinfo.h:59:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_PAT              0x00010000
+                    ^
+..\src\cpuinfo.h:60:21: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_CMOV             0x00008000
+                     ^
+..\src\cpuinfo.h:61:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_MCA              0x00004000
+                    ^
+..\src\cpuinfo.h:62:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_PGE              0x00002000
+                    ^
+..\src\cpuinfo.h:63:21: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_MTRR             0x00001000
+                     ^
+..\src\cpuinfo.h:64:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_SEP              0x00000800
+                    ^
+..\src\cpuinfo.h:65:21: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_APIC             0x00000200
+                     ^
+..\src\cpuinfo.h:66:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_CX8              0x00000100
+                    ^
+..\src\cpuinfo.h:67:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_MCE              0x00000080
+                    ^
+..\src\cpuinfo.h:68:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_PAE              0x00000040
+                    ^
+..\src\cpuinfo.h:69:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_MSR              0x00000020
+                    ^
+..\src\cpuinfo.h:70:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_TSC              0x00000010
+                    ^
+..\src\cpuinfo.h:71:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_PSE              0x00000008
+                    ^
+..\src\cpuinfo.h:72:19: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_DE               0x00000004
+                   ^
+..\src\cpuinfo.h:73:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_VME              0x00000002
+                    ^
+..\src\cpuinfo.h:74:20: warning: ISO C99 requires whitespace after the macro name
+ #define CPU_HAS_FPU              0x00000001
+                    ^
+..\src\cpuinfo.h:75:1: error: stray '\302' in program
+  
+ ^
+..\src\cpuinfo.h:75:1: error: stray '\240' in program
+..\src\cpuinfo.h:77:1: error: stray '\302' in program
+     unsigned int eax;
+ ^
+..\src\cpuinfo.h:77:1: error: stray '\240' in program
+..\src\cpuinfo.h:77:1: error: stray '\302' in program
+..\src\cpuinfo.h:77:1: error: stray '\240' in program
+..\src\cpuinfo.h:77:1: error: stray '\302' in program
+..\src\cpuinfo.h:77:1: error: stray '\240' in program
+..\src\cpuinfo.h:77:1: error: stray '\302' in program
+..\src\cpuinfo.h:77:1: error: stray '\240' in program
+..\src\cpuinfo.h:78:1: error: stray '\302' in program
+     unsigned int ebx;
+ ^
+..\src\cpuinfo.h:78:1: error: stray '\240' in program
+..\src\cpuinfo.h:78:1: error: stray '\302' in program
+..\src\cpuinfo.h:78:1: error: stray '\240' in program
+..\src\cpuinfo.h:78:1: error: stray '\302' in program
+..\src\cpuinfo.h:78:1: error: stray '\240' in program
+..\src\cpuinfo.h:78:1: error: stray '\302' in program
+..\src\cpuinfo.h:78:1: error: stray '\240' in program
+..\src\cpuinfo.h:79:1: error: stray '\302' in program
+     unsigned int ecx;
+ ^
+..\src\cpuinfo.h:79:1: error: stray '\240' in program
+..\src\cpuinfo.h:79:1: error: stray '\302' in program
+..\src\cpuinfo.h:79:1: error: stray '\240' in program
+..\src\cpuinfo.h:79:1: error: stray '\302' in program
+..\src\cpuinfo.h:79:1: error: stray '\240' in program
+..\src\cpuinfo.h:79:1: error: stray '\302' in program
+..\src\cpuinfo.h:79:1: error: stray '\240' in program
+..\src\cpuinfo.h:80:1: error: stray '\302' in program
+     unsigned int edx;
+ ^
+..\src\cpuinfo.h:80:1: error: stray '\240' in program
+..\src\cpuinfo.h:80:1: error: stray '\302' in program
+..\src\cpuinfo.h:80:1: error: stray '\240' in program
+..\src\cpuinfo.h:80:1: error: stray '\302' in program
+..\src\cpuinfo.h:80:1: error: stray '\240' in program
+..\src\cpuinfo.h:80:1: error: stray '\302' in program
+..\src\cpuinfo.h:80:1: error: stray '\240' in program
+..\src\cpuinfo.h:82:1: error: stray '\302' in program
+  
+ ^
+..\src\cpuinfo.h:82:1: error: stray '\240' in program
+..\src\cpuinfo.h:84:1: error: stray '\302' in program
+  
+ ^
+..\src\cpuinfo.h:84:1: error: stray '\240' in program
+..\src\cpuinfo.h:88:1: error: stray '\302' in program
+  
+ ^
+..\src\cpuinfo.h:88:1: error: stray '\240' in program
+..\src\cpuinfo.c:2:1: error: stray '\302' in program
+  
+ ^
+..\src\cpuinfo.c:2:1: error: stray '\240' in program
+..\src\cpuinfo.c:42:1: error: stray '\302' in program
+  
+ ^
+..\src\cpuinfo.c:42:1: error: stray '\240' in program
+..\src\cpuinfo.c: In function 'has_cpuid':
+..\src\cpuinfo.c:45:1: error: stray '\302' in program
+     int has = 0;
+ ^
+..\src\cpuinfo.c:45:1: error: stray '\240' in program
+..\src\cpuinfo.c:45:1: error: stray '\302' in program
+..\src\cpuinfo.c:45:1: error: stray '\240' in program
+..\src\cpuinfo.c:45:1: error: stray '\302' in program
+..\src\cpuinfo.c:45:1: error: stray '\240' in program
+..\src\cpuinfo.c:45:1: error: stray '\302' in program
+..\src\cpuinfo.c:45:1: error: stray '\240' in program
+..\src\cpuinfo.c:46:1: error: stray '\302' in program
+  
+ ^
+..\src\cpuinfo.c:46:1: error: stray '\240' in program
+..\src\cpuinfo.c:48:1: error: stray '\302' in program
+     __asm__ (
+ ^
+..\src\cpuinfo.c:48:1: error: stray '\240' in program
+..\src\cpuinfo.c:48:1: error: stray '\302' in program
+..\src\cpuinfo.c:48:1: error: stray '\240' in program
+..\src\cpuinfo.c:48:1: error: stray '\302' in program
+..\src\cpuinfo.c:48:1: error: stray '\240' in program
+..\src\cpuinfo.c:48:1: error: stray '\302' in program
+..\src\cpuinfo.c:48:1: error: stray '\240' in program
+..\src\cpuinfo.c:49:1: error: stray '\302' in program
+         "pushfl\n\t"
+ ^
+..\src\cpuinfo.c:49:1: error: stray '\240' in program
+..\src\cpuinfo.c:49:1: error: stray '\302' in program
+..\src\cpuinfo.c:49:1: error: stray '\240' in program
+..\src\cpuinfo.c:49:1: error: stray '\302' in program
+..\src\cpuinfo.c:49:1: error: stray '\240' in program
+..\src\cpuinfo.c:49:1: error: stray '\302' in program
+..\src\cpuinfo.c:49:1: error: stray '\240' in program
+..\src\cpuinfo.c:49:1: error: stray '\302' in program
+..\src\cpuinfo.c:49:1: error: stray '\240' in program
+..\src\cpuinfo.c:49:1: error: stray '\302' in program
+..\src\cpuinfo.c:49:1: error: stray '\240' in program
+..\src\cpuinfo.c:49:1: error: stray '\302' in program
+..\src\cpuinfo.c:49:1: error: stray '\240' in program
+..\src\cpuinfo.c:49:1: error: stray '\302' in program
+..\src\cpuinfo.c:49:1: error: stray '\240' in program
+..\src\cpuinfo.c:50:1: error: stray '\302' in program
+         "popl %%eax\n\t"
+ ^
+..\src\cpuinfo.c:50:1: error: stray '\240' in program
+..\src\cpuinfo.c:50:1: error: stray '\302' in program
+..\src\cpuinfo.c:50:1: error: stray '\240' in program
+..\src\cpuinfo.c:50:1: error: stray '\302' in program
+..\src\cpuinfo.c:50:1: error: stray '\240' in program
+..\src\cpuinfo.c:50:1: error: stray '\302' in program
+..\src\cpuinfo.c:50:1: error: stray '\240' in program
+..\src\cpuinfo.c:50:1: error: stray '\302' in program
+..\src\cpuinfo.c:50:1: error: stray '\240' in program
+..\src\cpuinfo.c:50:1: error: stray '\302' in program
+..\src\cpuinfo.c:50:1: error: stray '\240' in program
+..\src\cpuinfo.c:50:1: error: stray '\302' in program
+..\src\cpuinfo.c:50:1: error: stray '\240' in program
+..\src\cpuinfo.c:50:1: error: stray '\302' in program
+..\src\cpuinfo.c:50:1: error: stray '\240' in program
+..\src\cpuinfo.c:50:17: error: expected ':' or ')' before string constant
+         "popl %%eax\n\t"
+                 ^
+..\src\cpuinfo.c:51:1: error: stray '\302' in program
+         "movl %%eax, %%edx\n\t"
+ ^
+..\src\cpuinfo.c:51:1: error: stray '\240' in program
+..\src\cpuinfo.c:51:1: error: stray '\302' in program
+..\src\cpuinfo.c:51:1: error: stray '\240' in program
+..\src\cpuinfo.c:51:1: error: stray '\302' in program
+..\src\cpuinfo.c:51:1: error: stray '\240' in program
+..\src\cpuinfo.c:51:1: error: stray '\302' in program
+..\src\cpuinfo.c:51:1: error: stray '\240' in program
+..\src\cpuinfo.c:51:1: error: stray '\302' in program
+..\src\cpuinfo.c:51:1: error: stray '\240' in program
+..\src\cpuinfo.c:51:1: error: stray '\302' in program
+..\src\cpuinfo.c:51:1: error: stray '\240' in program
+..\src\cpuinfo.c:51:1: error: stray '\302' in program
+..\src\cpuinfo.c:51:1: error: stray '\240' in program
+..\src\cpuinfo.c:51:1: error: stray '\302' in program
+..\src\cpuinfo.c:51:1: error: stray '\240' in program
+..\src\cpuinfo.c:52:1: error: stray '\302' in program
+         "xorl $0x200000, %%eax\n\t"
+ ^
+..\src\cpuinfo.c:52:1: error: stray '\240' in program
+..\src\cpuinfo.c:52:1: error: stray '\302' in program
+..\src\cpuinfo.c:52:1: error: stray '\240' in program
+..\src\cpuinfo.c:52:1: error: stray '\302' in program
+..\src\cpuinfo.c:52:1: error: stray '\240' in program
+..\src\cpuinfo.c:52:1: error: stray '\302' in program
+..\src\cpuinfo.c:52:1: error: stray '\240' in program
+..\src\cpuinfo.c:52:1: error: stray '\302' in program
+..\src\cpuinfo.c:52:1: error: stray '\240' in program
+..\src\cpuinfo.c:52:1: error: stray '\302' in program
+..\src\cpuinfo.c:52:1: error: stray '\240' in program
+..\src\cpuinfo.c:52:1: error: stray '\302' in program
+..\src\cpuinfo.c:52:1: error: stray '\240' in program
+..\src\cpuinfo.c:52:1: error: stray '\302' in program
+..\src\cpuinfo.c:52:1: error: stray '\240' in program
+..\src\cpuinfo.c:53:1: error: stray '\302' in program
+         "pushl %%eax\n\t"
+ ^
+..\src\cpuinfo.c:53:1: error: stray '\240' in program
+..\src\cpuinfo.c:53:1: error: stray '\302' in program
+..\src\cpuinfo.c:53:1: error: stray '\240' in program
+..\src\cpuinfo.c:53:1: error: stray '\302' in program
+..\src\cpuinfo.c:53:1: error: stray '\240' in program
+..\src\cpuinfo.c:53:1: error: stray '\302' in program
+..\src\cpuinfo.c:53:1: error: stray '\240' in program
+..\src\cpuinfo.c:53:1: error: stray '\302' in program
+..\src\cpuinfo.c:53:1: error: stray '\240' in program
+..\src\cpuinfo.c:53:1: error: stray '\302' in program
+..\src\cpuinfo.c:53:1: error: stray '\240' in program
+..\src\cpuinfo.c:53:1: error: stray '\302' in program
+..\src\cpuinfo.c:53:1: error: stray '\240' in program
+..\src\cpuinfo.c:53:1: error: stray '\302' in program
+..\src\cpuinfo.c:53:1: error: stray '\240' in program
+..\src\cpuinfo.c:54:1: error: stray '\302' in program
+         "popfl\n\t"
+ ^
+..\src\cpuinfo.c:54:1: error: stray '\240' in program
+..\src\cpuinfo.c:54:1: error: stray '\302' in program
+..\src\cpuinfo.c:54:1: error: stray '\240' in program
+..\src\cpuinfo.c:54:1: error: stray '\302' in program
+..\src\cpuinfo.c:54:1: error: stray '\240' in program
+..\src\cpuinfo.c:54:1: error: stray '\302' in program
+..\src\cpuinfo.c:54:1: error: stray '\240' in program
+..\src\cpuinfo.c:54:1: error: stray '\302' in program
+..\src\cpuinfo.c:54:1: error: stray '\240' in program
+..\src\cpuinfo.c:54:1: error: stray '\302' in program
+..\src\cpuinfo.c:54:1: error: stray '\240' in program
+..\src\cpuinfo.c:54:1: error: stray '\302' in program
+..\src\cpuinfo.c:54:1: error: stray '\240' in program
+..\src\cpuinfo.c:54:1: error: stray '\302' in program
+..\src\cpuinfo.c:54:1: error: stray '\240' in program
+..\src\cpuinfo.c:55:1: error: stray '\302' in program
+         "pushfl\n\t"
+ ^
+..\src\cpuinfo.c:55:1: error: stray '\240' in program
+..\src\cpuinfo.c:55:1: error: stray '\302' in program
+..\src\cpuinfo.c:55:1: error: stray '\240' in program
+..\src\cpuinfo.c:55:1: error: stray '\302' in program
+..\src\cpuinfo.c:55:1: error: stray '\240' in program
+..\src\cpuinfo.c:55:1: error: stray '\302' in program
+..\src\cpuinfo.c:55:1: error: stray '\240' in program
+..\src\cpuinfo.c:55:1: error: stray '\302' in program
+..\src\cpuinfo.c:55:1: error: stray '\240' in program
+..\src\cpuinfo.c:55:1: error: stray '\302' in program
+..\src\cpuinfo.c:55:1: error: stray '\240' in program
+..\src\cpuinfo.c:55:1: error: stray '\302' in program
+..\src\cpuinfo.c:55:1: error: stray '\240' in program
+..\src\cpuinfo.c:55:1: error: stray '\302' in program
+..\src\cpuinfo.c:55:1: error: stray '\240' in program
+..\src\cpuinfo.c:56:1: error: stray '\302' in program
+         "popl %%eax\n\t"
+ ^
+..\src\cpuinfo.c:56:1: error: stray '\240' in program
+..\src\cpuinfo.c:56:1: error: stray '\302' in program
+..\src\cpuinfo.c:56:1: error: stray '\240' in program
+..\src\cpuinfo.c:56:1: error: stray '\302' in program
+..\src\cpuinfo.c:56:1: error: stray '\240' in program
+..\src\cpuinfo.c:56:1: error: stray '\302' in program
+..\src\cpuinfo.c:56:1: error: stray '\240' in program
+..\src\cpuinfo.c:56:1: error: stray '\302' in program
+..\src\cpuinfo.c:56:1: error: stray '\240' in program
+..\src\cpuinfo.c:56:1: error: stray '\302' in program
+..\src\cpuinfo.c:56:1: error: stray '\240' in program
+..\src\cpuinfo.c:56:1: error: stray '\302' in program
+..\src\cpuinfo.c:56:1: error: stray '\240' in program
+..\src\cpuinfo.c:56:1: error: stray '\302' in program
+..\src\cpuinfo.c:56:1: error: stray '\240' in program
+..\src\cpuinfo.c:57:1: error: stray '\302' in program
+         "xorl %%eax, %%edx\n\t"
+ ^
+..\src\cpuinfo.c:57:1: error: stray '\240' in program
+..\src\cpuinfo.c:57:1: error: stray '\302' in program
+..\src\cpuinfo.c:57:1: error: stray '\240' in program
+..\src\cpuinfo.c:57:1: error: stray '\302' in program
+..\src\cpuinfo.c:57:1: error: stray '\240' in program
+..\src\cpuinfo.c:57:1: error: stray '\302' in program
+..\src\cpuinfo.c:57:1: error: stray '\240' in program
+..\src\cpuinfo.c:57:1: error: stray '\302' in program
+..\src\cpuinfo.c:57:1: error: stray '\240' in program
+..\src\cpuinfo.c:57:1: error: stray '\302' in program
+..\src\cpuinfo.c:57:1: error: stray '\240' in program
+..\src\cpuinfo.c:57:1: error: stray '\302' in program
+..\src\cpuinfo.c:57:1: error: stray '\240' in program
+..\src\cpuinfo.c:57:1: error: stray '\302' in program
+..\src\cpuinfo.c:57:1: error: stray '\240' in program
+..\src\cpuinfo.c:58:1: error: stray '\302' in program
+         "jz done\n\t"
+ ^
+..\src\cpuinfo.c:58:1: error: stray '\240' in program
+..\src\cpuinfo.c:58:1: error: stray '\302' in program
+..\src\cpuinfo.c:58:1: error: stray '\240' in program
+..\src\cpuinfo.c:58:1: error: stray '\302' in program
+..\src\cpuinfo.c:58:1: error: stray '\240' in program
+..\src\cpuinfo.c:58:1: error: stray '\302' in program
+..\src\cpuinfo.c:58:1: error: stray '\240' in program
+..\src\cpuinfo.c:58:1: error: stray '\302' in program
+..\src\cpuinfo.c:58:1: error: stray '\240' in program
+..\src\cpuinfo.c:58:1: error: stray '\302' in program
+..\src\cpuinfo.c:58:1: error: stray '\240' in program
+..\src\cpuinfo.c:58:1: error: stray '\302' in program
+..\src\cpuinfo.c:58:1: error: stray '\240' in program
+..\src\cpuinfo.c:58:1: error: stray '\302' in program
+..\src\cpuinfo.c:58:1: error: stray '\240' in program
+..\src\cpuinfo.c:59:1: error: stray '\302' in program
+         "movl $1, %0\n\t"
+ ^
+..\src\cpuinfo.c:59:1: error: stray '\240' in program
+..\src\cpuinfo.c:59:1: error: stray '\302' in program
+..\src\cpuinfo.c:59:1: error: stray '\240' in program
+..\src\cpuinfo.c:59:1: error: stray '\302' in program
+..\src\cpuinfo.c:59:1: error: stray '\240' in program
+..\src\cpuinfo.c:59:1: error: stray '\302' in program
+..\src\cpuinfo.c:59:1: error: stray '\240' in program
+..\src\cpuinfo.c:59:1: error: stray '\302' in program
+..\src\cpuinfo.c:59:1: error: stray '\240' in program
+..\src\cpuinfo.c:59:1: error: stray '\302' in program
+..\src\cpuinfo.c:59:1: error: stray '\240' in program
+..\src\cpuinfo.c:59:1: error: stray '\302' in program
+..\src\cpuinfo.c:59:1: error: stray '\240' in program
+..\src\cpuinfo.c:59:1: error: stray '\302' in program
+..\src\cpuinfo.c:59:1: error: stray '\240' in program
+..\src\cpuinfo.c:60:1: error: stray '\302' in program
+         "done:\n\t"
+ ^
+..\src\cpuinfo.c:60:1: error: stray '\240' in program
+..\src\cpuinfo.c:60:1: error: stray '\302' in program
+..\src\cpuinfo.c:60:1: error: stray '\240' in program
+..\src\cpuinfo.c:60:1: error: stray '\302' in program
+..\src\cpuinfo.c:60:1: error: stray '\240' in program
+..\src\cpuinfo.c:60:1: error: stray '\302' in program
+..\src\cpuinfo.c:60:1: error: stray '\240' in program
+..\src\cpuinfo.c:60:1: error: stray '\302' in program
+..\src\cpuinfo.c:60:1: error: stray '\240' in program
+..\src\cpuinfo.c:60:1: error: stray '\302' in program
+..\src\cpuinfo.c:60:1: error: stray '\240' in program
+..\src\cpuinfo.c:60:1: error: stray '\302' in program
+..\src\cpuinfo.c:60:1: error: stray '\240' in program
+..\src\cpuinfo.c:60:1: error: stray '\302' in program
+..\src\cpuinfo.c:60:1: error: stray '\240' in program
+..\src\cpuinfo.c:61:1: error: stray '\302' in program
+         :"=m"(has)
+ ^
+..\src\cpuinfo.c:61:1: error: stray '\240' in program
+..\src\cpuinfo.c:61:1: error: stray '\302' in program
+..\src\cpuinfo.c:61:1: error: stray '\240' in program
+..\src\cpuinfo.c:61:1: error: stray '\302' in program
+..\src\cpuinfo.c:61:1: error: stray '\240' in program
+..\src\cpuinfo.c:61:1: error: stray '\302' in program
+..\src\cpuinfo.c:61:1: error: stray '\240' in program
+..\src\cpuinfo.c:61:1: error: stray '\302' in program
+..\src\cpuinfo.c:61:1: error: stray '\240' in program
+..\src\cpuinfo.c:61:1: error: stray '\302' in program
+..\src\cpuinfo.c:61:1: error: stray '\240' in program
+..\src\cpuinfo.c:61:1: error: stray '\302' in program
+..\src\cpuinfo.c:61:1: error: stray '\240' in program
+..\src\cpuinfo.c:61:1: error: stray '\302' in program
+..\src\cpuinfo.c:61:1: error: stray '\240' in program
+..\src\cpuinfo.c:62:1: error: stray '\302' in program
+         :
+ ^
+..\src\cpuinfo.c:62:1: error: stray '\240' in program
+..\src\cpuinfo.c:62:1: error: stray '\302' in program
+..\src\cpuinfo.c:62:1: error: stray '\240' in program
+..\src\cpuinfo.c:62:1: error: stray '\302' in program
+..\src\cpuinfo.c:62:1: error: stray '\240' in program
+..\src\cpuinfo.c:62:1: error: stray '\302' in program
+..\src\cpuinfo.c:62:1: error: stray '\240' in program
+..\src\cpuinfo.c:62:1: error: stray '\302' in program
+..\src\cpuinfo.c:62:1: error: stray '\240' in program
+..\src\cpuinfo.c:62:1: error: stray '\302' in program
+..\src\cpuinfo.c:62:1: error: stray '\240' in program
+..\src\cpuinfo.c:62:1: error: stray '\302' in program
+..\src\cpuinfo.c:62:1: error: stray '\240' in program
+..\src\cpuinfo.c:62:1: error: stray '\302' in program
+..\src\cpuinfo.c:62:1: error: stray '\240' in program
+..\src\cpuinfo.c:63:1: error: stray '\302' in program
+         :"%eax", "%edx"
+ ^
+..\src\cpuinfo.c:63:1: error: stray '\240' in program
+..\src\cpuinfo.c:63:1: error: stray '\302' in program
+..\src\cpuinfo.c:63:1: error: stray '\240' in program
+..\src\cpuinfo.c:63:1: error: stray '\302' in program
+..\src\cpuinfo.c:63:1: error: stray '\240' in program
+..\src\cpuinfo.c:63:1: error: stray '\302' in program
+..\src\cpuinfo.c:63:1: error: stray '\240' in program
+..\src\cpuinfo.c:63:1: error: stray '\302' in program
+..\src\cpuinfo.c:63:1: error: stray '\240' in program
+..\src\cpuinfo.c:63:1: error: stray '\302' in program
+..\src\cpuinfo.c:63:1: error: stray '\240' in program
+..\src\cpuinfo.c:63:1: error: stray '\302' in program
+..\src\cpuinfo.c:63:1: error: stray '\240' in program
+..\src\cpuinfo.c:63:1: error: stray '\302' in program
+..\src\cpuinfo.c:63:1: error: stray '\240' in program
+..\src\cpuinfo.c:64:1: error: stray '\302' in program
+     );
+ ^
+..\src\cpuinfo.c:64:1: error: stray '\240' in program
+..\src\cpuinfo.c:64:1: error: stray '\302' in program
+..\src\cpuinfo.c:64:1: error: stray '\240' in program
+..\src\cpuinfo.c:64:1: error: stray '\302' in program
+..\src\cpuinfo.c:64:1: error: stray '\240' in program
+..\src\cpuinfo.c:64:1: error: stray '\302' in program
+..\src\cpuinfo.c:64:1: error: stray '\240' in program
+..\src\cpuinfo.c:101:1: error: stray '\302' in program
+  
+ ^
+..\src\cpuinfo.c:101:1: error: stray '\240' in program
+..\src\cpuinfo.c:102:1: error: stray '\302' in program
+     return has;
+ ^
+..\src\cpuinfo.c:102:1: error: stray '\240' in program
+..\src\cpuinfo.c:102:1: error: stray '\302' in program
+..\src\cpuinfo.c:102:1: error: stray '\240' in program
+..\src\cpuinfo.c:102:1: error: stray '\302' in program
+..\src\cpuinfo.c:102:1: error: stray '\240' in program
+..\src\cpuinfo.c:102:1: error: stray '\302' in program
+..\src\cpuinfo.c:102:1: error: stray '\240' in program
+..\src\cpuinfo.c: At top level:
+..\src\cpuinfo.c:104:1: error: stray '\302' in program
+  
+ ^
+..\src\cpuinfo.c:104:1: error: stray '\240' in program
+..\src\cpuinfo.c: In function 'cpuinfo':
+..\src\cpuinfo.c:107:1: error: stray '\302' in program
+     if (!(has_cpuid() && cpu))
+ ^
+..\src\cpuinfo.c:107:1: error: stray '\240' in program
+..\src\cpuinfo.c:107:1: error: stray '\302' in program
+..\src\cpuinfo.c:107:1: error: stray '\240' in program
+..\src\cpuinfo.c:107:1: error: stray '\302' in program
+..\src\cpuinfo.c:107:1: error: stray '\240' in program
+..\src\cpuinfo.c:107:1: error: stray '\302' in program
+..\src\cpuinfo.c:107:1: error: stray '\240' in program
+..\src\cpuinfo.c:108:1: error: stray '\302' in program
+         return 0;
+ ^
+..\src\cpuinfo.c:108:1: error: stray '\240' in program
+..\src\cpuinfo.c:108:1: error: stray '\302' in program
+..\src\cpuinfo.c:108:1: error: stray '\240' in program
+..\src\cpuinfo.c:108:1: error: stray '\302' in program
+..\src\cpuinfo.c:108:1: error: stray '\240' in program
+..\src\cpuinfo.c:108:1: error: stray '\302' in program
+..\src\cpuinfo.c:108:1: error: stray '\240' in program
+..\src\cpuinfo.c:108:1: error: stray '\302' in program
+..\src\cpuinfo.c:108:1: error: stray '\240' in program
+..\src\cpuinfo.c:108:1: error: stray '\302' in program
+..\src\cpuinfo.c:108:1: error: stray '\240' in program
+..\src\cpuinfo.c:108:1: error: stray '\302' in program
+..\src\cpuinfo.c:108:1: error: stray '\240' in program
+..\src\cpuinfo.c:108:1: error: stray '\302' in program
+..\src\cpuinfo.c:108:1: error: stray '\240' in program
+..\src\cpuinfo.c:109:1: error: stray '\302' in program
+  
+ ^
+..\src\cpuinfo.c:109:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+ ^
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:110:1: error: stray '\302' in program
+..\src\cpuinfo.c:110:1: error: stray '\240' in program
+..\src\cpuinfo.c:7:17: error: expected ':' or ')' before string constant
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\302' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:7:17: error: stray '\240' in program
+         "cpuid\n\t"                            \
+                 ^
+..\src\cpuinfo.c:110:9: note: in expansion of macro '__cpuid__'
+     __cpuid__(eax, cpu->eax, cpu->ebx, cpu->ecx, cpu->edx);
+         ^
+..\src\cpuinfo.c:111:1: error: stray '\302' in program
+  
+ ^
+..\src\cpuinfo.c:111:1: error: stray '\240' in program
+..\src\cpuinfo.c:112:1: error: stray '\302' in program
+     return 1;
+ ^
+..\src\cpuinfo.c:112:1: error: stray '\240' in program
+..\src\cpuinfo.c:112:1: error: stray '\302' in program
+..\src\cpuinfo.c:112:1: error: stray '\240' in program
+..\src\cpuinfo.c:112:1: error: stray '\302' in program
+..\src\cpuinfo.c:112:1: error: stray '\240' in program
+..\src\cpuinfo.c:112:1: error: stray '\302' in program
+..\src\cpuinfo.c:112:1: error: stray '\240' in program
+
+13:11:27 Build Finished (took 11s.853ms)
+
